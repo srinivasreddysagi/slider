@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Slider from './components/Slider';
+import { AiFillCaretRight } from "react-icons/ai";
+import { AiFillCaretLeft } from "react-icons/ai";
+import { FiPause } from "react-icons/fi";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <div className="slider">
+              <Slider />
+          </div>
+          <div className="buttons">
+              <AiFillCaretLeft />
+              <FiPause />
+              <AiFillCaretRight />
+          </div>
+      </div>
   );
 }
 
