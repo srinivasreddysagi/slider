@@ -2,28 +2,19 @@ import React from "react";
 import { HiOutlineCode } from "react-icons/hi";
 import { BiLinkAlt } from "react-icons/bi";
 
-function Slider() {
+function Slider({ key, title, description, live_url, code_url }) {
     return (
-        <div className="projects__show-project">
-            <h4>Clipboard landing page</h4>
-            <p>
-                A beautiful and responsive webpage using flex layout containing
-                few individual sections
-            </p>
+        <div className="show" id={key}>
+            <h4>{title}</h4>
+            <small className="desc">{description}</small>
             <div className="links-wrapper">
-                <a
-                    href="https://github.com/srinivasreddysagi/clipboard-landing-page-master/"
-                    target="_blank" rel="noreferrer"
-                >
+                <a href={live_url} target="_blank" rel="noreferrer">
                     Code
-                    <HiOutlineCode></HiOutlineCode>
+                    <HiOutlineCode className="a-in"></HiOutlineCode>
                 </a>
-                <a
-                    href="https://niv-frontend.netlify.app/clipboard-landing-page-master/"
-                    target="_blank" rel="noreferrer"
-                >
+                <a href={code_url} target="_blank" rel="noreferrer">
                     Visit
-                    <BiLinkAlt />
+                    <BiLinkAlt className="a-in" />
                 </a>
             </div>
         </div>
