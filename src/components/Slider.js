@@ -29,6 +29,7 @@ function Slide({ cname, id, title, description, live_url, code_url }) {
 export default function Slider(props) {
     const projects = props.data;
     const [slide, setSlide] = useState(0);
+    const [inc, setInc] = useState(1);
 
     useEffect(() => {
         const last = projects.length - 1;
@@ -38,6 +39,13 @@ export default function Slider(props) {
             setSlide(0);
         }
     }, [slide, projects]);
+
+    useEffect(() => {
+        const interval = setInterval(()=> {
+            setSlide(slide + inc);
+        }, 2500);
+        return () => clearInterval(interval);
+    });
 
     return (
         <div className="component">
@@ -64,7 +72,7 @@ export default function Slider(props) {
                     <AiFillCaretLeft />
                 </button>
                 <button>
-                    <FiPause />
+                    <FiPause onClick={() => inc ? setInc(0) : setInc(1)} />
                 </button>
                 <button onClick={() => setSlide(slide + 1)}>
                     <AiFillCaretRight />
