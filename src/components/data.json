@@ -1,20 +1,20 @@
 [
     {
-        "key": "1",
+        "id": "1",
         "title": "Tours App",
-        "description": "A real-time currency converter developed using Vanilla JS and Exchange Rate API.",
+        "description": "A Tours app using React JS",
         "live_url": "https://niv-js.netlify.app/currency-converter/",
         "code_url": "https://github.com/srinivasreddysagi/currency-converter"
     },
     {
-        "key": "2",
+        "id": "2",
         "title": "Tic Tac Toe Game",
-        "description": "A real-time currency converter developed using Vanilla JS and Exchange Rate API.",
+        "description": "A GUI based game designed using React JS",
         "live_url": "https://niv-js.netlify.app/currency-converter/",
         "code_url": "https://github.com/srinivasreddysagi/currency-converter"
     },
     {
-        "key": "3",
+        "id": "3",
         "title": "Real-time currency converter",
         "description": "A real-time currency converter developed using Vanilla JS and Exchange Rate API.",
         "live_url": "https://niv-js.netlify.app/currency-converter/",
@@ -22,7 +22,7 @@
     },
 
     {
-        "key": "4",
+        "id": "4",
         "title": "Expense Tracker",
         "description": "An Expense Tracker built using HTML, CSS, JavaScript and Local Storage.",
         "live_url": "https://niv-js.netlify.app/expense-tracker/",
@@ -30,7 +30,7 @@
     },
 
     {
-        "key": "5",
+        "id": "5",
         "title": "Form validations",
         "description": "Client side form validation using HTML, CSS, JavaScript and Regex.",
         "live_url": "https://niv-js.netlify.app/form-validations/",
@@ -38,7 +38,7 @@
     },
 
     {
-        "key": "6",
+        "id": "6",
         "title": "Rock Paper Scissors Game",
         "description": "A simple UI based Rock Paper Scissors game built using HTML, CSS and JavaScript. Have fun!",
         "live_url": "https://niv-js.netlify.app/game-rock-paper-scissors/",
@@ -46,7 +46,7 @@
     },
 
     {
-        "key": "7",
+        "id": "7",
         "title": "Fylo landing page",
         "description": "A beautiful and responsive webpage with pleasing look using grid layout",
         "live_url": "https://niv-frontend.netlify.app/fylo-landing-page-with-two-column-layout-master/",
@@ -54,7 +54,7 @@
     },
 
     {
-        "key": "8",
+        "id": "8",
         "title": "Clipboard landing page",
         "description": "A beautiful and responsive webpage using flex layout containing few individual sections",
         "live_url": "https://niv-frontend.netlify.app/clipboard-landing-page-master/",
@@ -62,7 +62,7 @@
     },
 
     {
-        "key": "9",
+        "id": "9",
         "title": "Chat app component",
         "description": "A splendid and complex chat app component designed using HTML and illustrated using CSS",
         "live_url": "https://niv-frontend.netlify.app/chat-app-css-illustration-master/",
@@ -70,7 +70,7 @@
     },
 
     {
-        "key": "10",
+        "id": "10",
         "title": "Testimonials grid section",
         "description": "An elegant testimonials section using flex layout",
         "live_url": "https://niv-frontend.netlify.app/testimonials-grid-section-main/",
@@ -78,7 +78,7 @@
     },
 
     {
-        "key": "11",
+        "id": "11",
         "title": "Order summary component",
         "description": "A simple and responsive order summary component using flex layout",
         "live_url": "https://niv-frontend.netlify.app/order-summary-component-main/",
